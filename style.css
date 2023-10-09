@@ -48,11 +48,39 @@ nav {
 .jumbotron {
     height: 740px;
     background-color: #b4d0e7;
+    padding-top: 2px;
+
+}
+
+.container-header {
+    padding: 20px 245px;
 }
 
 .title {
-    text-align: center;
     margin-top: 50px;
-    font-weight: 500;
-    font
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.container-header-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 3%;
+    justify-content: space-evenly;
+
+}
+
+.headerclickable {
+    background-color: #0061ff;
+    color: white;
+    width: 70%;
+    padding: 4%;
+    margin-top: 25px;
+
+}
+
+.headercancel {
+    margin-top: 25px;
 }
