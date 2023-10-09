@@ -46,7 +46,7 @@ nav {
 }
 
 .jumbotron {
-    height: 740px;
+    height: 550px;
     background-color: #b4d0e7;
     padding-top: 2px;
 
@@ -69,6 +69,7 @@ nav {
     width: 40%;
     margin-top: 3%;
     justify-content: space-evenly;
+    position: relative;
 
 }
 
@@ -83,4 +84,15 @@ nav {
 
 .headercancel {
     margin-top: 25px;
+}
+
+.container-header-right {
+    display: inline-block;
+    position: absolute;
+    top: 89%;
+    left: 43%
+}
+
+.container-header-right>img {
+    width: 90%;
 }
