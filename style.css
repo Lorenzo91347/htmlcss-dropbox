@@ -44,3 +44,8 @@ nav {
     padding: 2%;
     font-size: xx-small;
 }
+
+.jumbotron {
+    height: 50px;
+    background-color: #b4d0e7;
+}
