@@ -1,9 +1,17 @@
+/*
+Format
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*
+Navigation Bar
+*/
 
 nav {
     width: 100%;
@@ -28,7 +36,6 @@ nav {
     width: 130px;
     text-align: center;
     margin: auto;
-    font-size: xx-small;
 }
 
 .navright {
@@ -42,8 +49,16 @@ nav {
     text-align: center;
     vertical-align: middle;
     padding: 2%;
+}
+
+.navopt,
+.navclickable {
     font-size: xx-small;
 }
+
+/*
+Bottom Header
+*/
 
 .jumbotron {
     height: 550px;
@@ -57,7 +72,7 @@ nav {
 }
 
 .title {
-    margin-top: 50px;
+    margin-top: 10px;
     font-weight: bolder;
     font-size: 50px;
 
@@ -73,6 +88,12 @@ nav {
 
 }
 
+.headerinfo,
+.headerclickable,
+.headercancel {
+    font-size: small;
+}
+
 .headerclickable {
     background-color: #0061ff;
     color: white;
@@ -86,13 +107,37 @@ nav {
     margin-top: 25px;
 }
 
+.container-header-left :nth-last-child(1) {
+    margin-top: 70px;
+    font-size: 46px;
+}
+
 .container-header-right {
-    display: inline-block;
     position: absolute;
-    top: 89%;
+    top: 77%;
     left: 43%
 }
 
 .container-header-right>img {
-    width: 90%;
+    width: 103%;
+}
+
+/*
+Main title
+*/
+
+.main-top {
+    margin: 12% 23% 3%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.radio {
+    margin: auto;
+    width: 55%;
+}
+
+.radio>span {
+    margin-right: 35px;
+    font-size: small;
 }
