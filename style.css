@@ -205,3 +205,13 @@ span {
 .opt-cols-list1>li {
     margin-bottom: 20px;
 }
+
+.colclickable {
+    background-color: #0061ff;
+    color: white;
+    width: 85%;
+    padding: 4%;
+    margin: 25px auto 20px;
+    font-size: 13px;
+    text-align: center;
+}
