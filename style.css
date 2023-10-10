@@ -127,17 +127,58 @@ Main title
 */
 
 .main-top {
-    margin: 12% 23% 3%;
-    font-size: 32px;
+    margin: 11% auto 4%;
+    font-size: 37px;
     font-weight: bold;
+    text-align: left;
+    width: 64%;
 }
 
 .radio {
-    margin: auto;
+    margin: 0 auto 4%;
     width: 55%;
 }
 
 .radio>span {
     margin-right: 35px;
     font-size: small;
+}
+
+.cols {
+    width: 67%;
+    margin: auto;
+
+}
+
+.opt-cols-head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opt-cols-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opt-cols-head>div {
+
+    text-align: center;
+    border: 1px solid black;
+    font-size: 10px;
+    padding: 7px;
+    margin: auto 4px;
+}
+
+
+.opt-cols-head>div {
+    width: calc(100%/3 - 30px);
+    margin: auto 4px;
+    border: 1px solid black
+}
+
+.opt-cols-main>div {
+    width: calc(100%/3 - 30px);
+    margin: auto 4px;
+    border: 1px solid black;
+    padding: 14px;
 }
