@@ -129,7 +129,7 @@ Main title
 .main-top {
     margin: 11% auto 4%;
     font-size: 37px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: left;
     width: 64%;
 }
@@ -181,4 +181,13 @@ Main title
     margin: auto 4px;
     border: 1px solid black;
     padding: 14px;
+}
+
+h5 {
+    margin-top: 8%;
+}
+
+h2 {
+    margin-top: 5px;
+    font-weight: 700;
 }
