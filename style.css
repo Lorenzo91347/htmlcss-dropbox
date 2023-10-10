@@ -184,10 +184,24 @@ Main title
 }
 
 h5 {
-    margin-top: 8%;
+    margin: 8% auto 2%;
 }
 
 h2 {
     margin-top: 5px;
     font-weight: 700;
+}
+
+span {
+    font-size: 70%;
+}
+
+.opt-cols-list1 {
+    font-size: small;
+    list-style: none;
+    margin-top: 45px;
+}
+
+.opt-cols-list1>li {
+    margin-bottom: 20px;
 }
