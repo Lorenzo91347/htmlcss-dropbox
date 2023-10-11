@@ -126,11 +126,16 @@ Bottom Header
 Main title
 */
 
+
 .main-title {
     margin: 11% auto 4%;
+
+}
+
+.main-title,
+.squares-title {
     font-size: 30px;
     font-weight: 700;
-    text-align: left;
     width: 62%;
 }
 
@@ -295,7 +300,6 @@ article {
 }
 
 .mainimg>img {
-    object-fit: contain;
     width: 100%;
 
 }
@@ -334,4 +338,91 @@ Dropbox Business
 .dpbusiness>img {
     width: 70%;
     object-fit: contain;
+}
+
+.squares-title {
+    margin: 11% 0 4%;
+}
+
+.squares-box {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.sq-cont1,
+.sq-cont2 {
+    width: calc(100% / 3);
+}
+
+.sq-cont1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.squares {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.squares>img {
+    width: 50%;
+    filter: invert(1);
+}
+
+
+
+.sq-cont2 {
+    padding: 30px;
+}
+
+.sq-cont2>img {
+    width: 50%;
+}
+
+.sq-cont2>p {
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.sq1 {
+    background-color: #a2d39b;
+}
+
+.sq2 {
+    background-color: #61082b;
+}
+
+.sq3 {
+    background-color: #0093ce;
+}
+
+.sq4 {
+    background-color: #ff1c1c;
+}
+
+.sq5 {
+    background-color: #d5001f;
+}
+
+.sq6 {
+    background-color: #b4d0e7;
+}
+
+.sq7 {
+    background-color: #0d2481;
+}
+
+.sq8 {
+    background-color: #ffd830;
+}
+
+hr {
+    width: 30%;
+    margin: 30px 0 30px;
+    opacity: 0.1;
 }
