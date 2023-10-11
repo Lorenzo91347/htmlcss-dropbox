@@ -139,6 +139,7 @@ Main title
     width: 62%;
 }
 
+
 .radio {
     margin-bottom: 43px;
     margin-left: 12px;
@@ -340,6 +341,10 @@ Dropbox Business
     object-fit: contain;
 }
 
+/*
+Dropbox Corporate Customers
+*/
+
 .squares-title {
     margin: 11% 0 4%;
 }
@@ -455,4 +460,95 @@ hr {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+/*
+Frequent Questions
+*/
+
+.mainbody2 {
+    width: 60%;
+    margin: auto;
+}
+
+.questiontitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    border-bottom: 1px solid;
+    height: 105px;
+}
+
+.mainbody2>div {
+    padding: 25px 0;
+    border-bottom: 1px solid;
+    font-weight: 600;
+    font-size: small
+}
+
+.question {
+    position: relative;
+}
+
+.chevron {
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+
+/*
+Footer
+*/
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    height: 340px;
+}
+
+.foot-container {
+    margin: auto;
+    display: flex;
+    width: 70%;
+    padding: 40px 0;
+}
+
+
+.footlist {
+    width: calc(100% /5);
+}
+
+.footlist ol {
+    list-style: none;
+    font-size: small;
+    margin: 15px 0;
+}
+
+.footlist ol li {
+    margin: 10px 0;
+}
+
+.break {
+    width: 70%;
+    margin: auto;
+}
+
+.foot-hr {
+    border-bottom: 1px solid white;
+    width: 10%;
+}
+
+.fa-earth-americas {
+    padding-right: 10px;
+}
+
+.fa-caret-up {
+    padding-left: 10px;
+}
+
+.break p {
+    font-size: 11px;
+    color: #898989;
+    margin: 25px 0 25px
 }
